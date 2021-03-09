@@ -52,7 +52,6 @@ public class Dog {
 	
 	
 	
-	
 	public static void main(String[] args) {
 	Dog  dog1 = new Dog();
 	System.out.println(dog1.name); // null
@@ -61,6 +60,7 @@ public class Dog {
 	Dog dog2 = new Dog("Joe");
 	
 	System.out.println(dog2.name); //  Joe
+	System.out.println(dog2.height); // 0
 	dog2.sound();
 	
 	// Create a dog by using name,height, weight

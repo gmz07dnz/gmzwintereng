@@ -70,8 +70,7 @@ public class List03 {
 		// How to get the index of last occurence of an element in a list
 		/*
 		 * lastIndexOf(element)
-		 * Returns the index of the last occurrence of the specified elementin this list, 
-		 * or -1 if this list does not contain the element
+		 * Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element
 		 */
 		System.out.println(list1.lastIndexOf(111)); // 
 		
@@ -80,8 +79,8 @@ public class List03 {
 		// How to remove multiple elements from a list
 		/*
 		   removeAll( );
-		   Removes from this list all of its elements that are contained in thespecified collection
-            Returns:true if this list changed as a result of the call
+		   Removes from this list all of its elements that are contained in the specified collection
+            Returns true if this list changed as a result of the call
 		 
 		 */
 		list1.removeAll(list2);
@@ -135,7 +134,7 @@ public class List03 {
 		Arrays.asList(arr);  // To store I need create al list
 	
 		List<Integer>  list3 = Arrays.asList(arr);   
-		/* what you put inside the pharantesis, you should type the same data type in List<>
+		/*
 		 it is similar with list but not completely same with list
 		 When you create a list by using array some array features transferred the list
 		 Arrays are not flexible in length, if you create a list by using this method, it doesn't be flexible in size
