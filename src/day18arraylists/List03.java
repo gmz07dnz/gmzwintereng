@@ -134,6 +134,7 @@ public class List03 {
 		Arrays.asList(arr);  // To store I need create al list
 	
 		List<Integer>  list3 = Arrays.asList(arr);   
+
 		/*
 		 it is similar with list but not completely same with list
 		 When you create a list by using array some array features transferred the list

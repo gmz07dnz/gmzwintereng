@@ -10,6 +10,8 @@ public class Varargs01 {
 	  4) Varargs must be the last parameter inside the method paranthesis
 	  5) Can I use multiple varargs inside a method paranthesis?
 	       I can not. Because it contradicts with 4. point. If I you use multiple , at least one of them will not be at the end
+	  6) Vararg can be empty     
+	   
 	 */
 
 	public static void main(String[] args) {
