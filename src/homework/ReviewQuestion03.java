@@ -17,6 +17,21 @@ public class ReviewQuestion03 {
 		System.out.println("Enter letter");
 		char ch = scan.next().charAt(0);
 	    
+		if (ch<='Z' && ch>='A') {
+			if(ch<'F') {
+				System.out.println("Big before F");
+			}else {
+				System.out.println("Big after F");
+			}
+		}	if (ch<='z' && ch>='a') {
+			if(ch<'h') {
+				System.out.println("Small before h");
+			}else {
+				System.out.println("Small after h");
+			}
+		}
+		
+		scan.close();
 		
 	}
 

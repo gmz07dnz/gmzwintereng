@@ -6,6 +6,7 @@ public class Encapsulation01 {
 	private int age = 21;
 	private boolean retired = false;
 	private char initial = 'A';
+	@SuppressWarnings("unused")
 	private String address = "Florida";	
 	
 	// for getter of boolean variables start the name of getter with "is"

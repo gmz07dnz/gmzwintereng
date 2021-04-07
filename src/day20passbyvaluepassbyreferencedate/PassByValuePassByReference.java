@@ -46,7 +46,7 @@ public class PassByValuePassByReference {
 		String b = "Java";  
 		String c = new String ("Java");
 		System.out.println(a + "-" + b + "-" + c);  // Java-Java-Java
-		System.out.println(a == b);  // true -- String Pool
+		System.out.println(a == b);  // true -- because of String Pool
 		System.out.println(a.equals(b)); // true
 		
 		System.out.println(a==c); // false -- c is new object

@@ -68,7 +68,7 @@ public class Date01 {
 		}
 		
 		LocalTime currentTime2= LocalTime.now(); 
-		System.out.println(currentTime1);
+		System.out.println(currentTime2);
 		
 		System.out.println("Time execution: "+ (currentTime2.getNano()-currentTime1.getNano()));
 		
@@ -133,7 +133,6 @@ public class Date01 {
 	    int age1 = Period.between(bd1, d1).getYears();
 	    System.out.println( age1); // 35
 	    
-		
 		
 		
 		
